@@ -1,0 +1,35 @@
+body {
+	background-color: #161925;
+}
+
+#board {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem;
+	text-transform: capitalize;
+}
+
+.square {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: calc(100% / 10 - 1rem);
+	aspect-ratio: 1/1;
+	background-color: #fdfffc;
+
+	font-weight: bold;
+}
+
+.fizz {
+	background-color: #c1292e;
+}
+
+.buzz {
+	background-color: #235789;
+}
+
+.fizzBuzz {
+	background-color: #f1d302;
+}
